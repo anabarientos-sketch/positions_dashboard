@@ -51,16 +51,6 @@ export default function Home() {
           </Link>
         </div>
 
-        {/* Optional Dashboard Preview Image */}
-        <div className="mt-4 w-64 h-64 relative rounded-xl overflow-hidden shadow-lg">
-          <Image
-            src="/stories/dashboard-preview.jpg"
-            alt="Dashboard Preview"
-            fill
-            style={{ objectFit: "cover" }}
-            className="rounded-xl"
-          />
-        </div>
       </main>
     </div>
   );
